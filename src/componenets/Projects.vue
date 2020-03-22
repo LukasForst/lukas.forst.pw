@@ -88,7 +88,7 @@
                     },
                     {
                         title: 'Curriculum Vitae',
-                        description: 'My not necessarily up to date CV..',
+                        description: 'My not necessarily up to date CV.',
                         githubLink: 'https://github.com/LukasForst/cv',
                         language: 'tex'
                     }
