@@ -1,8 +1,13 @@
 <template>
     <div>
         <md-list-item class="project-link" :href="githubLink" target="_blank">
-            <md-avatar class="github-logo">
-                <md-icon class="fa fa-github"/>
+
+<!--            <md-avatar class="github-logo hover-logo">-->
+<!--                <md-icon class="fa fa-github"/>-->
+<!--            </md-avatar>-->
+
+            <md-avatar class="hover-logo">
+                <img class="language-icon" v-bind:src="languageIcon" alt="language icon"/>
             </md-avatar>
 
             <div class="md-list-item-text">
@@ -10,7 +15,6 @@
                 <span>{{description}}</span>
             </div>
         </md-list-item>
-        <md-divider></md-divider>
     </div>
 </template>
 
@@ -22,6 +26,11 @@
             description: String,
             githubLink: String,
             language: String
+        },
+        data() {
+            return {
+                languageIcon: require(`../assets/${this.language}.png`)
+            }
         }
     }
 </script>
@@ -35,11 +44,16 @@
         background-color: whitesmoke;
     }
 
-    .github-logo {
+    .hover-logo {
         transition: transform .4s;
     }
 
-    .project-link:hover .github-logo {
+    .project-link:hover .hover-logo {
         transform: scale(1.4);
+    }
+
+    .language-icon {
+        height: 24px;
+        width: 24px;
     }
 </style>

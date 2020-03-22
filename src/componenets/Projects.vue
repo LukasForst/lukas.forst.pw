@@ -22,55 +22,55 @@
                         title: 'Ktoolz',
                         description: 'Collection of extension functions for Kotlin.',
                         githubLink: 'https://github.com/blindspot-ai/ktoolz',
-                        language: 'Kotlin'
+                        language: 'kotlin'
                     },
                     {
                         title: 'Exposed Upsert',
                         description: 'PostgreSQL upsert implementation for Exposed framework.',
                         githubLink: 'https://github.com/LukasForst/exposed-upsert',
-                        language: 'Kotlin'
-                    },
-                    {
-                        title: 'Poll Bot',
-                        description: 'Bot for Wire that can create polls.',
-                        githubLink: 'https://github.com/wireapp/poll-bot',
-                        language: 'Kotlin'
+                        language: 'kotlin'
                     },
                     {
                         title: 'Charon',
                         description: 'Proxy mapping Slack API to Wire API.',
                         githubLink: 'https://github.com/wireapp/charon',
-                        language: 'Python'
+                        language: 'python'
+                    },
+                    {
+                        title: 'Poll Bot',
+                        description: 'Bot for Wire that can create polls.',
+                        githubLink: 'https://github.com/wireapp/poll-bot',
+                        language: 'kotlin'
                     },
                     {
                         title: 'Pinder',
                         description: 'Website that chooses name of project for you.',
                         githubLink: 'https://github.com/LukasForst/pinder',
-                        language: 'JavaScript'
+                        language: 'vuejs'
                     },
                     {
                         title: 'Roman Echo Bot',
                         description: 'Simple echo bot for Wire using Roman proxy.',
                         githubLink: 'https://github.com/wireapp/echo-bot-roman',
-                        language: 'Python'
+                        language: 'python'
                     },
                     {
                         title: 'Kotlin Gradle Template',
                         description: 'Template for publishing Gradle libraries to JCenter.',
                         githubLink: 'https://github.com/LukasForst/maven-library',
-                        language: 'Kotlin'
+                        language: 'kotlin'
                     },
                     {
                         title: '.NET Core Template',
                         description: 'Boilerplate for bigger projects using .NET Core 3.1.',
                         githubLink: 'https://github.com/LukasForst/dotnet-core-template',
-                        language: 'C#'
+                        language: 'csharp'
                     },
                     {
                         title: 'Bachelor Thesis',
                         description: 'Scheduling optimization jobs on distributed platform.',
                         githubLink: 'https://github.com/LukasForst/bachelor-thesis',
-                        language: 'Kotlin'
+                        language: 'kotlin'
                     }
                 ]
             }
@@ -82,7 +82,7 @@
     #projects {
         text-align: center;
         width: 500px;
-        max-width: 100%;
+        max-width: 80%;
         display: inline-block;
         vertical-align: top;
     }
