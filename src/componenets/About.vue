@@ -4,12 +4,12 @@
 
         <h2>Lukas Forst</h2>
 
-        <md-button class="md-mini md-icon-button" :href="linkedin" target="_blank">
-            <md-icon class="fa fa-linkedin"/>
-        </md-button>
-
         <md-button class="md-mini md-icon-button" :href="github" target="_blank">
             <md-icon class="fa fa-github"/>
+        </md-button>
+
+        <md-button class="md-mini md-icon-button" :href="linkedin" target="_blank">
+            <md-icon class="fa fa-linkedin"/>
         </md-button>
     </div>
 </template>
