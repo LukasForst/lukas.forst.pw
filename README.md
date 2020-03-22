@@ -1,24 +1,25 @@
-# lukas.forst.pw
+# [Personal website](https://lukas.forst.pw)
+![Deploy to GitHub Pages](https://github.com/LukasForst/lukas.forst.pw/workflows/Deploy%20to%20GitHub%20Pages/badge.svg)
 
-## Project setup
+My personal website.
+
+
+#### Project setup
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+#### Compiles and hot-reloads for development
 ```
 yarn serve
 ```
 
-### Compiles and minifies for production
+#### Compiles and minifies for production
 ```
 yarn build
 ```
 
-### Lints and fixes files
+#### Lints and fixes files
 ```
 yarn lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
