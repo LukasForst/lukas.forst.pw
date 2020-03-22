@@ -1,26 +1,35 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/me.png">
-    <h4><a href="https://github.com/LukasForst" target="_blank">Lukas Forst</a> </h4>
-  </div>
+    <div id="app">
+        <About/>
+        <Projects/>
+    </div>
 </template>
 
 <script>
 
-export default {
-  name: 'App',
-  components: {
-  }
-}
+    import About from "./componenets/About";
+    import Projects from "./componenets/Projects";
+
+    export default {
+        name: 'App',
+        components: {
+            Projects,
+            About
+        }
+    }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+    #app {
+        font-family: Avenir, Helvetica, Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-align: center;
+        color: #2c3e50;
+        margin-top: 60px;
+    }
+    a {
+      color:inherit;
+      text-decoration: none;
+    }
 </style>
