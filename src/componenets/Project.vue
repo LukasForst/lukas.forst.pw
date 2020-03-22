@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="project">
         <md-list-item class="project-link" :href="githubLink" target="_blank">
             <md-avatar class="hover-logo">
                 <!--suppress HtmlUnknownTarget -->
@@ -31,8 +31,19 @@
     }
 </script>
 
-<style scoped>
+<style scoped lang="css">
+    .project {
+        display: flex;
+        justify-content: center;
+        flex-basis: 100%;
+        min-width: 100px;
+        width: 100%;
+        max-width: 500px;
+    }
+
     .project-link {
+        display: inline-block;
+        width: 100%;
         transition: background-color .5s;
     }
 

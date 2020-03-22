@@ -81,9 +81,15 @@
 <style scoped>
     #projects {
         text-align: center;
-        width: 500px;
-        max-width: 80%;
-        display: inline-block;
+        /*display: inline-block;*/
         vertical-align: top;
+        margin-top: 50px;
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 100%;
+        overflow-x: hidden;
+        justify-content: center;
     }
 </style>
