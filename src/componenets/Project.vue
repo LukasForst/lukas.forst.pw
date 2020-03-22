@@ -1,8 +1,5 @@
 <template>
     <div>
-        <link rel="stylesheet"
-              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
         <md-list-item :href="githubLink" target="_blank">
             <md-avatar>
                 <md-icon class="fa fa-github"/>
@@ -13,7 +10,7 @@
                 <span>{{description}}</span>
             </div>
         </md-list-item>
-        <md-divider class="md-inset"></md-divider>
+        <md-divider></md-divider>
     </div>
 </template>
 
@@ -30,5 +27,7 @@
 </script>
 
 <style scoped>
-
+    a {
+        color: inherit;
+    }
 </style>

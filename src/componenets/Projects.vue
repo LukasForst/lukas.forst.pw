@@ -26,7 +26,7 @@
                     },
                     {
                         title: 'Exposed Upsert',
-                        description: 'PostgreSQL upsert implementation for Exposed framework .',
+                        description: 'PostgreSQL upsert implementation for Exposed framework.',
                         githubLink: 'https://github.com/LukasForst/exposed-upsert',
                         language: 'Kotlin'
                     },
@@ -50,7 +50,7 @@
                     },
                     {
                         title: 'Roman Echo Bot',
-                        description: 'Simple echo bot for Wire using Roman proxy..',
+                        description: 'Simple echo bot for Wire using Roman proxy.',
                         githubLink: 'https://github.com/wireapp/echo-bot-roman',
                         language: 'Python'
                     },
@@ -85,6 +85,5 @@
         max-width: 100%;
         display: inline-block;
         vertical-align: top;
-        /*border: 1px solid rgba(#000, .12);*/
     }
 </style>
