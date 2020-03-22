@@ -75,7 +75,7 @@
                         language: 'kotlin'
                     },
                     {
-                        title: 'Students Hacking',
+                        title: 'Students Phishing',
                         description: 'Blog post on how we hacked students on CTU.',
                         githubLink: 'https://github.com/LukasForst/BSY',
                         language: 'python'
