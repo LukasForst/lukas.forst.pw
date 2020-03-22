@@ -1,7 +1,7 @@
 <template>
     <div>
-        <md-list-item :href="githubLink" target="_blank">
-            <md-avatar>
+        <md-list-item class="project-link" :href="githubLink" target="_blank">
+            <md-avatar class="github-logo">
                 <md-icon class="fa fa-github"/>
             </md-avatar>
 
@@ -27,7 +27,19 @@
 </script>
 
 <style scoped>
-    a {
-        color: inherit;
+    .project-link {
+        transition: background-color .5s;
+    }
+
+    .project-link:hover {
+        background-color: whitesmoke;
+    }
+
+    .github-logo {
+        transition: transform .4s;
+    }
+
+    .project-link:hover .github-logo {
+        transform: scale(1.4);
     }
 </style>
