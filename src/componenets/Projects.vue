@@ -84,7 +84,7 @@
     .projects-container {
         overflow-x: hidden;
         margin-left: 5%;
-        margin-right: 10%;
+        margin-right: 5%;
     }
 
     #projects {
