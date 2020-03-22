@@ -1,13 +1,9 @@
 <template>
     <div>
         <md-list-item class="project-link" :href="githubLink" target="_blank">
-
-<!--            <md-avatar class="github-logo hover-logo">-->
-<!--                <md-icon class="fa fa-github"/>-->
-<!--            </md-avatar>-->
-
             <md-avatar class="hover-logo">
-                <img class="language-icon" v-bind:src="languageIcon" alt="language icon"/>
+                <!--suppress HtmlUnknownTarget -->
+                <img class="language-icon" :src="languageIcon" alt="language icon"/>
             </md-avatar>
 
             <div class="md-list-item-text">
