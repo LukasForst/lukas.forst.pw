@@ -20,6 +20,16 @@
 </script>
 
 <style>
+    body {
+        overflow: hidden;
+        height: 100vh;
+    }
+
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+
     #app {
         font-family: Avenir, Helvetica, Arial, sans-serif;
         -webkit-font-smoothing: antialiased;
@@ -27,9 +37,5 @@
         text-align: center;
         color: #2c3e50;
         margin-top: 60px;
-    }
-    a {
-      color:inherit;
-      text-decoration: none;
     }
 </style>

@@ -7,13 +7,13 @@
             <md-avatar>
                 <md-icon class="fa fa-github"/>
             </md-avatar>
-            <span class="md-list-item-text">
-                {{title}}
-            </span>
-            <span class="md-list-item-text">
-                {{description}}
-            </span>
+
+            <div class="md-list-item-text">
+                <span class="md-title">{{title}}</span>
+                <span>{{description}}</span>
+            </div>
         </md-list-item>
+        <md-divider class="md-inset"></md-divider>
     </div>
 </template>
 
@@ -23,7 +23,8 @@
         props: {
             title: String,
             description: String,
-            githubLink: String
+            githubLink: String,
+            language: String
         }
     }
 </script>
