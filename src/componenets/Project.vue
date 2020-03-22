@@ -8,7 +8,7 @@
 
             <div class="md-list-item-text">
                 <span class="md-title">{{title}}</span>
-                <span>{{description}}</span>
+                <span class="description">{{description}}</span>
             </div>
         </md-list-item>
     </div>
@@ -38,6 +38,13 @@
         max-width: 500px;
         display: inline-block;
         text-align: center;
+    }
+
+    @media screen and (max-width: 500px) {
+        .description {
+            visibility: hidden;
+            display: none;
+        }
     }
 
     .project-link {
