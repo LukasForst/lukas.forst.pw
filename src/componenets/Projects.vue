@@ -82,9 +82,10 @@
 
 <style scoped>
     .projects-container {
-        overflow-x: hidden;
+        margin-top: 50px;
         margin-left: 5%;
         margin-right: 5%;
+        overflow-x: hidden;
     }
 
     #projects {
