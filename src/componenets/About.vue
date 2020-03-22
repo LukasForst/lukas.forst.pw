@@ -11,6 +11,10 @@
         <md-button class="md-fab md-mini md-icon-button" :href="linkedin" target="_blank">
             <md-icon class="fa fa-linkedin"/>
         </md-button>
+
+        <md-button class="md-fab md-mini md-icon-button" :href="mail">
+            <md-icon class="fa fa-envelope-o"/>
+        </md-button>
     </div>
 </template>
 
@@ -20,7 +24,8 @@
         data() {
             return {
                 linkedin: 'https://www.linkedin.com/in/lukas-forst/',
-                github: 'https://github.com/LukasForst'
+                github: 'https://github.com/LukasForst',
+                mail: 'mailto:lukas@forst.pw'
             }
         }
     }

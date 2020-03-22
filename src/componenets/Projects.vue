@@ -73,6 +73,24 @@
                         description: 'Scheduling optimization jobs on distributed platform.',
                         githubLink: 'https://github.com/LukasForst/bachelor-thesis',
                         language: 'kotlin'
+                    },
+                    {
+                        title: 'Phishing Cybersecurity Students',
+                        description: 'Blog post on how we hacked students on CTU.',
+                        githubLink: 'https://github.com/LukasForst/BSY',
+                        language: 'python'
+                    },
+                    {
+                        title: 'Thinkfan Helper',
+                        description: 'Tool fixing Thinkfan settings on some kernels.',
+                        githubLink: 'https://github.com/LukasForst/thinkfan-helper',
+                        language: 'python'
+                    },
+                    {
+                        title: 'Curriculum Vitae',
+                        description: 'My not necessarily up to date CV..',
+                        githubLink: 'https://github.com/LukasForst/cv',
+                        language: 'tex'
                     }
                 ]
             }
