@@ -31,19 +31,16 @@
     }
 </script>
 
-<style scoped lang="css">
+<style scoped>
+
     .project {
-        display: flex;
-        justify-content: center;
-        flex-basis: 100%;
-        min-width: 100px;
-        width: 100%;
+        width: 500px;
         max-width: 500px;
+        display: inline-block;
+        text-align: center;
     }
 
     .project-link {
-        display: inline-block;
-        width: 100%;
         transition: background-color .5s;
     }
 

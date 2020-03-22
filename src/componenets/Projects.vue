@@ -1,12 +1,14 @@
 <template>
-    <md-list id="projects" class="md-double-line">
-        <Project v-for="project in projects" :key="project.title"
-                 :title="project.title"
-                 :description="project.description"
-                 :github-link="project.githubLink"
-                 :language="project.language"
-        />
-    </md-list>
+    <div class="projects-container">
+        <md-list id="projects" class="md-double-line">
+            <Project v-for="project in projects" :key="project.title"
+                     :title="project.title"
+                     :description="project.description"
+                     :github-link="project.githubLink"
+                     :language="project.language"
+            />
+        </md-list>
+    </div>
 </template>
 
 <script>
@@ -79,17 +81,15 @@
 </script>
 
 <style scoped>
-    #projects {
-        text-align: center;
-        /*display: inline-block;*/
-        vertical-align: top;
-        margin-top: 50px;
-
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        max-width: 100%;
+    .projects-container {
         overflow-x: hidden;
-        justify-content: center;
+        margin-left: 5%;
+        margin-right: 10%;
+    }
+
+    #projects {
+        display: inline-block;
+        text-align: center;
+        columns: 500px 2;
     }
 </style>
