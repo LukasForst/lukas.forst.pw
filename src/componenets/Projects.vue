@@ -39,6 +39,12 @@
                         language: 'python'
                     },
                     {
+                        title: 'Charon-Slack DevOps',
+                        description: 'DevOps porn for Slack Bots onboarding.',
+                        githubLink: 'https://github.com/LukasForst/slack-onboarding-bot',
+                        language: 'python'
+                    },
+                    {
                         title: 'Poll Bot',
                         description: 'Bot for Wire that can create polls.',
                         githubLink: 'https://github.com/wireapp/poll-bot',
