@@ -45,6 +45,12 @@
                         language: 'python'
                     },
                     {
+                        title: 'Ganymede',
+                        description: 'Wire's digital signatures backend.',
+                        githubLink: 'https://github.com/wireapp/ganymede',
+                        language: 'kotlin'
+                    },
+                    {
                         title: 'Poll Bot',
                         description: 'Bot for Wire that can create polls.',
                         githubLink: 'https://github.com/wireapp/poll-bot',
