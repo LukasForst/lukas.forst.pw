@@ -46,7 +46,7 @@
                     },
                     {
                         title: 'Ganymede',
-                        description: 'Wire's digital signatures backend.',
+                        description: 'Wire\'s digital signatures backend.',
                         githubLink: 'https://github.com/wireapp/ganymede',
                         language: 'kotlin'
                     },
