@@ -63,6 +63,12 @@
                         language: 'vuejs'
                     },
                     {
+                        title: 'Cadek Company Management',
+                        description: 'Application for company management.',
+                        githubLink: 'https://github.com/LukasForst/printing-company',
+                        language: 'react'
+                    },
+                    {
                         title: 'Roman Echo Bot',
                         description: 'Simple echo bot for Wire using Roman proxy.',
                         githubLink: 'https://github.com/wireapp/echo-bot-roman',
