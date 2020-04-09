@@ -24,7 +24,7 @@
 
 <style>
     body {
-        padding-top: 60px;
+        padding-top: 40px;
     }
     a {
         color: inherit;
