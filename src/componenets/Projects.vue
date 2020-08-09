@@ -111,6 +111,18 @@
                         language: 'python'
                     },
                     {
+                        title: 'DataVID-19',
+                        description: 'Hackaton tool for medical speech2text.',
+                        githubLink: 'https://github.com/tomaskourim/datavid/',
+                        language: 'python'
+                    },
+                    {
+                        title: 'Speech2Text',
+                        description: 'Speech to text with NodeJS and websockets.',
+                        githubLink: 'https://github.com/LukasForst/datavid-speech2text',
+                        language: 'nodejs'
+                    },
+                    {
                         title: 'Curriculum Vitae',
                         description: 'My not necessarily up to date CV.',
                         githubLink: 'https://github.com/LukasForst/cv',
