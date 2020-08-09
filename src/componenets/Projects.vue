@@ -21,9 +21,9 @@
             return {
                 projects: [
                     {
-                        title: 'Ktoolz',
+                        title: 'Katlib',
                         description: 'Collection of extension functions for Kotlin.',
-                        githubLink: 'https://github.com/blindspot-ai/ktoolz',
+                        githubLink: 'https://github.com/LukasForst/katlib',
                         language: 'kotlin'
                     },
                     {
@@ -51,6 +51,12 @@
                         language: 'kotlin'
                     },
                     {
+                        title: 'Wire Backup Export',
+                        description: 'Tool for reading Wire Client backups.',
+                        githubLink: 'https://github.com/LukasForst/wire-backup-export',
+                        language: 'kotlin'
+                    },
+                    {
                         title: 'Poll Bot',
                         description: 'Bot for Wire that can create polls.',
                         githubLink: 'https://github.com/wireapp/poll-bot',
@@ -63,7 +69,7 @@
                         language: 'vuejs'
                     },
                     {
-                        title: 'Cadek Company Management',
+                        title: 'Printing Company',
                         description: 'Application for company management.',
                         githubLink: 'https://github.com/LukasForst/printing-company',
                         language: 'react'
@@ -121,12 +127,12 @@
         margin-top: 50px;
         margin-left: 5%;
         margin-right: 5%;
-        overflow-x: hidden;
     }
 
     #projects {
-        display: inline-block;
-        text-align: center;
-        columns: 500px 2;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
     }
 </style>

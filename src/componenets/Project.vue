@@ -35,9 +35,6 @@
 
     .project {
         width: 500px;
-        max-width: 500px;
-        display: inline-block;
-        text-align: center;
     }
 
     @media screen and (max-width: 500px) {
