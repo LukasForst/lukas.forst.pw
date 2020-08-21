@@ -1,0 +1,149 @@
+[
+  {
+    "title": "Katlib",
+    "description": "Collection of extension functions for Kotlin.",
+    "githubLink": "https://github.com/LukasForst/katlib",
+    "language": "kotlin",
+    "category": "library"
+  },
+  {
+    "title": "Exposed Upsert",
+    "description": "PostgreSQL upsert implementation for Exposed framework.",
+    "githubLink": "https://github.com/LukasForst/exposed-upsert",
+    "language": "kotlin",
+    "category": "library"
+  },
+  {
+    "title": "Charon",
+    "description": "Proxy mapping Slack API to Wire API.",
+    "githubLink": "https://github.com/wireapp/charon",
+    "language": "python",
+    "category": "wire"
+  },
+  {
+    "title": "Charon-Slack DevOps",
+    "description": "DevOps porn for Slack Bots onboarding.",
+    "githubLink": "https://github.com/LukasForst/slack-onboarding-bot",
+    "language": "devops",
+    "category": "wire"
+  },
+  {
+    "title": "Ganymede",
+    "description": "Wire digital signatures backend.",
+    "githubLink": "https://github.com/wireapp/ganymede",
+    "language": "kotlin",
+    "category": "wire"
+  },
+  {
+    "title": "Wire Backup Decryption",
+    "description": "Library using Libsodium to decrypt Wire clients backups.",
+    "githubLink": "https://github.com/LukasForst/wire-backup-export",
+    "language": "kotlin",
+    "category": "wire"
+  },
+  {
+    "title": "Wire Backup Export",
+    "description": "Visualisation of Wire Clients backup",
+    "githubLink": "https://github.com/wireapp/backup-export-tool",
+    "language": "java",
+    "category": "wire"
+  },
+  {
+    "title": "Poll Bot",
+    "description": "Bot for Wire that can create polls.",
+    "githubLink": "https://github.com/wireapp/poll-bot",
+    "language": "kotlin",
+    "category": "wire"
+  },
+  {
+    "title": "Narvi",
+    "description": "Bot for Wire support team.",
+    "githubLink": "https://github.com/wireapp/narvi",
+    "language": "kotlin",
+    "category": "wire"
+  },
+  {
+    "title": "Pinder",
+    "description": "Website that chooses name of project for you.",
+    "githubLink": "https://github.com/LukasForst/pinder",
+    "language": "vuejs",
+    "category": "tool"
+  },
+  {
+    "title": "Printing Company",
+    "description": "Application for company management.",
+    "githubLink": "https://github.com/LukasForst/printing-company",
+    "language": "react",
+    "category": "tool"
+  },
+  {
+    "title": "Roman Echo Bot",
+    "description": "Simple echo bot for Wire using Roman proxy.",
+    "githubLink": "https://github.com/wireapp/echo-bot-roman",
+    "language": "python",
+    "category": "wire"
+  },
+  {
+    "title": "Kotlin Gradle Template",
+    "description": "Template for publishing Gradle libraries to JCenter.",
+    "githubLink": "https://github.com/LukasForst/maven-library",
+    "language": "kotlin",
+    "category": "template"
+  },
+  {
+    "title": ".NET Core Template",
+    "description": "Boilerplate for bigger projects using .NET Core 3.1.",
+    "githubLink": "https://github.com/LukasForst/dotnet-core-template",
+    "language": "csharp",
+    "category": "template"
+  },
+  {
+    "title": "Nginx, Swagger & Docker Compose",
+    "description": "Using Nginx as API Gateway with Swagger UI in docker-compose.",
+    "githubLink": "https://github.com/LukasForst/nginx-api-gateway",
+    "language": "devops",
+    "category": "template"
+  },
+  {
+    "title": "Bachelor Thesis",
+    "description": "Scheduling optimization jobs on distributed platform.",
+    "githubLink": "https://github.com/LukasForst/bachelor-thesis",
+    "language": "kotlin",
+    "category": "theory"
+  },
+  {
+    "title": "Students Phishing",
+    "description": "Blog post on how we hacked students on CTU.",
+    "githubLink": "https://github.com/LukasForst/BSY",
+    "language": "python",
+    "category": "theory"
+  },
+  {
+    "title": "Thinkfan Helper",
+    "description": "Tool fixing Thinkfan settings on some kernels.",
+    "githubLink": "https://github.com/LukasForst/thinkfan-helper",
+    "language": "python",
+    "category": "tool"
+  },
+  {
+    "title": "DataVID-19",
+    "description": "Hackaton tool for medical speech2text.",
+    "githubLink": "https://github.com/tomaskourim/datavid/",
+    "language": "python",
+    "category": "datavid"
+  },
+  {
+    "title": "Speech2Text",
+    "description": "Speech to text with NodeJS and websockets.",
+    "githubLink": "https://github.com/LukasForst/datavid-speech2text",
+    "language": "nodejs",
+    "category": "datavid"
+  },
+  {
+    "title": "Curriculum Vitae",
+    "description": "My not necessarily up to date CV.",
+    "githubLink": "https://github.com/LukasForst/cv",
+    "language": "tex",
+    "category": "theory"
+  }
+]
