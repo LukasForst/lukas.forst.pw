@@ -145,5 +145,19 @@
     "githubLink": "https://github.com/LukasForst/cv",
     "language": "tex",
     "category": "theory"
+  },
+  {
+    "title": "Fousy Band",
+    "description": "Website for my band.",
+    "githubLink": "https://github.com/LukasForst/fousyband.com",
+    "language": "vuejs",
+    "category": "web"
+  },
+  {
+    "title": "This site",
+    "description": "This website",
+    "githubLink": "https://github.com/LukasForst/lukas.forst.pw",
+    "language": "vuejs",
+    "category": "web"
   }
 ]
