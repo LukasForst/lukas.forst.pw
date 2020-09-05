@@ -38,14 +38,15 @@
 <style scoped>
     .projects-container {
         margin-top: 50px;
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
+        overflow: hidden;
     }
 
     #projects {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
 </style>
