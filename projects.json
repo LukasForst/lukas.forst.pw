@@ -108,7 +108,7 @@
     "title": "Bachelor Thesis",
     "description": "Scheduling optimization jobs on distributed platform.",
     "githubLink": "https://github.com/LukasForst/bachelor-thesis",
-    "language": "kotlin",
+    "language": "tex",
     "category": "theory"
   },
   {
@@ -126,13 +126,6 @@
     "category": "tool"
   },
   {
-    "title": "Curriculum Vitae",
-    "description": "My not necessarily up to date CV.",
-    "githubLink": "https://github.com/LukasForst/cv",
-    "language": "tex",
-    "category": "theory"
-  },
-  {
     "title": "Fousy Band",
     "description": "Website for my band.",
     "githubLink": "https://github.com/LukasForst/fousyband.com",
@@ -145,5 +138,26 @@
     "githubLink": "https://github.com/LukasForst/lukas.forst.pw",
     "language": "vuejs",
     "category": "web"
+  },
+  {
+    "title": "Breviary App",
+    "description": "1st place winning application for CEE Hacks",
+    "githubLink": "https://github.com/mild-blue/breviary-app",
+    "language": "angular",
+    "category": "web"
+  },
+  {
+    "title": "Breviary Backend",
+    "description": "Backend for Breviary App",
+    "githubLink": "https://github.com/mild-blue/breviary",
+    "language": "python",
+    "category": "tool"
+  },
+  {
+    "title": "CEE Hacks Machine Learning",
+    "description": "Award winning submission for CEE Hacks",
+    "githubLink": "https://github.com/mild-blue/cee-hacks-2020-ml",
+    "language": "ml",
+    "category": "theory"
   }
 ]
