@@ -37,7 +37,6 @@
 
 <style scoped>
     .projects-container {
-        margin-top: 50px;
         margin-left: 10%;
         margin-right: 10%;
         overflow: hidden;

@@ -3,21 +3,24 @@
         <link rel="stylesheet"
               href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        <About/>
+        <Headline/>
+        <About />
         <Projects/>
     </div>
 </template>
 
 <script>
 
-    import About from "./componenets/About";
+    import Headline from "./componenets/Headline";
     import Projects from "./componenets/Projects";
+    import About from "@/componenets/About";
 
     export default {
         name: 'App',
         components: {
+          About,
             Projects,
-            About
+            Headline
         }
     }
 </script>
