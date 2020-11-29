@@ -8,8 +8,7 @@
         Loves designing and implementing one-click DevOps and have strong
         experience in architecture design (including PaaS, SaaS) as well as mathematical
         background ranging from group theory, data analysis, utilisation of AI,
-        predictions to mathematical optimisation. Lukas has proven experience in software engineering,
-        software architecture, clients handling and leading junior colleagues.
+        predictions to mathematical optimisation.
       </p>
       <p class="about-text md-body-2">
         Currently pursuing a Cyber Security Master's degree at CTU, Lukas started his career in the
