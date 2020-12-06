@@ -2,19 +2,20 @@
   <div class="about-container">
     <div class="about">
       <p class="about-text md-body-2">
-        Lukas Forst is motivated and self-driven Software Engineer with in-depth knowledge of Kotlin,
+        I'm motivated and self-driven Software Engineer with in-depth knowledge of Kotlin,
         Software Architecture and passion for functional programming all the way
         from the lambda calculus through the Haskell to the Kotlin & JavaScript.
-        Loves designing and implementing one-click DevOps and have strong
+        I love designing and implementing one-click DevOps and have a strong
         experience in architecture design (including PaaS, SaaS) as well as mathematical
         background ranging from group theory, data analysis, utilisation of AI,
-        predictions to mathematical optimisation.
+        predictions to mathematical optimisation. I have a strong experience in software engineering,
+        software architecture, clients handling and leading junior colleagues.
       </p>
       <p class="about-text md-body-2">
-        Currently pursuing a Cyber Security Master's degree at CTU, Lukas started his career in the
+        I'm currently pursuing a Cyber Security Master's degree at CTU. I started my career in the
         Prague-based AI startup Blindspot Solutions and then moved to a cybersecurity startup in
-        Berlin - Wire. In the begining of 2020, Lukas co-founded a medical AI startup, Mild Blue,
-        where he is responsible for the producs and company security.
+        Berlin - Wire. In the begining of 2020, I co-founded a medical AI startup, Mild Blue,
+        where I'm responsible for the producs' and company security.
       </p>
     </div>
   </div>
