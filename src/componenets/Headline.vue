@@ -5,14 +5,15 @@
     <h1>Lukas Forst</h1>
 
     <div class="social-container">
-      <div class="social-button">
-        <md-button class="md-fab md-mini md-icon-button" :href="linkedin" target="_blank">
-          <md-icon class="fa fa-linkedin"/>
-          <md-tooltip md-direction="bottom">
-            <div class="tooltip-text">LinkedIn</div>
-          </md-tooltip>
-        </md-button>
-      </div>
+      <!--   disable linked in button    -->
+      <!--      <div class="social-button">-->
+      <!--        <md-button class="md-fab md-mini md-icon-button" :href="linkedin" target="_blank">-->
+      <!--          <md-icon class="fa fa-linkedin"/>-->
+      <!--          <md-tooltip md-direction="bottom">-->
+      <!--            <div class="tooltip-text">LinkedIn</div>-->
+      <!--          </md-tooltip>-->
+      <!--        </md-button>-->
+      <!--      </div>-->
 
       <div class="social-button">
         <md-button class="md-fab md-mini md-icon-button" :href="cv" target="_blank">
@@ -53,9 +54,9 @@ export default {
       github: 'https://github.com/LukasForst',
       mail: 'mailto:lukas@forst.pw',
       cv: 'https://cv.forst.pw'
-    }
+    };
   }
-}
+};
 </script>
 
 <style scoped>

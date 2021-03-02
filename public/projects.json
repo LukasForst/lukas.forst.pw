@@ -67,17 +67,17 @@
     "description": "Website that chooses name of project for you.",
     "githubLink": "https://github.com/LukasForst/pinder",
     "language": "vuejs",
-    "category": "tool"
+    "category": "app"
   },
   {
     "title": "Printing Company",
     "description": "Application for company management.",
     "githubLink": "https://github.com/LukasForst/printing-company",
     "language": "react",
-    "category": "tool"
+    "category": "app"
   },
   {
-    "title": "Roman Echo Bot",
+    "title": "Roman Echo Bot Python",
     "description": "Simple echo bot for Wire using Roman proxy.",
     "githubLink": "https://github.com/wireapp/echo-bot-roman",
     "language": "python",
@@ -123,7 +123,7 @@
     "description": "Tool fixing Thinkfan settings on some kernels.",
     "githubLink": "https://github.com/LukasForst/thinkfan-helper",
     "language": "python",
-    "category": "tool"
+    "category": "app"
   },
   {
     "title": "Fousy Band",
@@ -134,30 +134,51 @@
   },
   {
     "title": "This site",
-    "description": "This website",
+    "description": "This website.",
     "githubLink": "https://github.com/LukasForst/lukas.forst.pw",
     "language": "vuejs",
     "category": "web"
   },
   {
     "title": "Breviary App",
-    "description": "1st place winning application for CEE Hacks",
+    "description": "1st place winning application for CEE Hacks.",
     "githubLink": "https://github.com/mild-blue/breviary-app",
     "language": "angular",
-    "category": "web"
+    "category": "mild-blue"
   },
   {
     "title": "Breviary Backend",
-    "description": "Backend for Breviary App",
+    "description": "Backend for Breviary App.",
     "githubLink": "https://github.com/mild-blue/breviary",
     "language": "python",
-    "category": "tool"
+    "category": "mild-blue"
   },
   {
     "title": "CEE Hacks Machine Learning",
-    "description": "Award winning submission for CEE Hacks",
+    "description": "Award winning submission for CEE Hacks.",
     "githubLink": "https://github.com/mild-blue/cee-hacks-2020-ml",
     "language": "ml",
-    "category": "theory"
+    "category": "mild-blue"
+  },
+  {
+    "title": "Admin Broadcast",
+    "description": "Broadcast bot developed in TypeScript and Deno.",
+    "githubLink": "https://github.com/wireapp/admin-broadcast",
+    "language": "deno",
+    "category": "wire"
+  },
+  {
+    "title": "Roman Echo Bot JS",
+    "description": "Simple Wire echo bot, developed in TypeScript and Deno.",
+    "githubLink": "https://github.com/wireapp/echo-bot-roman-js",
+    "language": "deno",
+    "category": "wire"
+  },
+  {
+    "title": "Jira Broadcast",
+    "description": "Wire bot publishing webhooks to Wire.",
+    "githubLink": "https://github.com/wireapp/jira-broadcast",
+    "language": "deno",
+    "category": "wire"
   }
 ]
